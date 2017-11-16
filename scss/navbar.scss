@@ -3,7 +3,12 @@
 	padding: 20px 0;
 	justify-content: space-between;
 	align-items: center;
-}
+	.navbar-logo {
+		 		-webkit-box-shadow: 0% -4% 86% 10% rgba(255,255,255,1);
+-moz-box-shadow: 0% -4% 86% 10% rgba(255,255,255,1);
+box-shadow: 0px -4px 86px 10px rgba(255,255,255,1);
+         }
+     }
 
 .navbar-toggler {
 	display: none;
@@ -17,11 +22,4 @@
    } 
 }
 
-.contacts-holder {
-	display: flex;
-	align-items: center;
-	.contacts {
-		margin-left: 10px; 
-	}
-	
-}
+

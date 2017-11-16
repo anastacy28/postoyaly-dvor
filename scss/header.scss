@@ -1,9 +1,18 @@
-header {
+.header {
+	text-transform: uppercase;
+}
+.header-top {
+     	padding: 10px 0;
+     	border-bottom: 5px solid #004;
+     	background: linear-gradient(to top left, #302112, #737178, 84%, #413f47);
+}
+
+.header-bottom {
     background-size: cover;
     position: relative;
     display: block;
     z-index: -1;
-	padding: 20px 0;
+    border-bottom: 5px solid #004;
     .decor {
     	position: absolute;
     	width: 100%;
@@ -11,5 +20,50 @@ header {
     	display: block;
     	background: rgba(84, 74, 75, 0.5);
     	z-index: -1;
+  }
+}
+    
+.contacts-holder {
+	display: flex;
+    padding: 1% 0;
+    justify-content: center;
+    .title-contacts {
+    	color: #ffcf9b;
+    	margin-bottom: 5px;
     }
+ }   
+
+.contacts ul {
+		display: flex;
+		li {
+			margin-left: 20px;
+		}
+	}
+	.level2 {
+		display: none;
+	}
+	
+@media  screen and (max-width: 655px) {
+   .contacts-holder {
+   	flex-direction: column;
+   	    text-align: center;
+   	 .title-contacts {
+   	 	justify-content: center;
+   	 }
+   }
+}
+
+@media  screen and (max-width: 565px) {
+	.title-contacts {
+		font-size: 15px;
+	}
+  .contacts ul li {
+  	font-size: 12px;
+  }
+}
+
+@media  screen and (max-width: 440px) {
+	.title-contacts {
+		display: none;
+	}
 }

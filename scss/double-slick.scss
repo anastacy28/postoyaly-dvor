@@ -1,12 +1,30 @@
 .double-slaider {
-	width: 100%;
-	display: block;
-	height: auto;
+	width: 70%;
+	margin-right: 4%;
 	.slaider-top {
-		margin-bottom: 40px;
+		margin-bottom: 2%;
+		position: relative;
+		.slick-next:before,
+		.slick-prev:before {
+			content: "";
+		}
+	}
+
+	.logo {
+       position: absolute;
+       width: 20%;
+       height: 10%;
+       left: 0;
+       right: 0;
+       top: 0;
+       margin: 0 auto;
+       z-index: 10;
+       img {
+       	width: 100%;
+       }
 	}
 	.img-holder {
-		width: 80%;
+		width: 100%;
 		height: auto;
 		overflow: hidden;
 		margin: 0 auto;
@@ -20,4 +38,8 @@ box-shadow: 2px 2px 20px 0px rgba(102,63,21,1);
 		height: auto;
 	  }
 	}
+}
+
+.sl-nav .slick-current img {
+  border: 5px solid #a190cc;
 }
