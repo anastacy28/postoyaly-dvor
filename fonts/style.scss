@@ -1,0 +1,64 @@
+@import "variables";
+
+@font-face {
+  font-family: 'postoyaly-dvor';
+  src:  url('#{$icomoon-font-path}/postoyaly-dvor.eot?96ikla');
+  src:  url('#{$icomoon-font-path}/postoyaly-dvor.eot?96ikla#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/postoyaly-dvor.ttf?96ikla') format('truetype'),
+    url('#{$icomoon-font-path}/postoyaly-dvor.woff?96ikla') format('woff'),
+    url('#{$icomoon-font-path}/postoyaly-dvor.svg?96ikla#postoyaly-dvor') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'postoyaly-dvor' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone {
+  &:before {
+    content: $icon-phone;
+  }
+}
+.icon-location {
+  &:before {
+    content: $icon-location;
+  }
+}
+.icon-star {
+  &:before {
+    content: $icon-star;
+  }
+}
+.icon-mail {
+  &:before {
+    content: $icon-mail;
+  }
+}
+.icon-heart-o {
+  &:before {
+    content: $icon-heart-o;
+  }
+}
+.icon-slick-next {
+  &:before {
+    content: $icon-slick-next;
+  }
+}
+.icon-slick-prev {
+  &:before {
+    content: $icon-slick-prev;
+  }
+}
+

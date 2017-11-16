@@ -1,0 +1,19 @@
+.double-slaider {
+  width: 100%;
+  display: block;
+  height: auto; }
+  .double-slaider .slaider-top {
+    margin-bottom: 40px; }
+  .double-slaider .img-holder {
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 5px solid #ccc;
+    -webkit-box-shadow: 2px 2px 20px 0px #663f15;
+    -moz-box-shadow: 2px 2px 20px 0px #663f15;
+    box-shadow: 2px 2px 20px 0px #663f15; }
+    .double-slaider .img-holder img {
+      display: block;
+      width: 100%;
+      height: auto; }

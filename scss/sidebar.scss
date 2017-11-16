@@ -1,0 +1,10 @@
+.content-holder {
+	display: flex;
+}
+.sidebar {
+	width: 20%;
+	height: 100%;
+	.map-holder {
+		z-index: 1;
+	}
+}

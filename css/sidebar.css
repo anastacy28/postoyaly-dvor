@@ -1,0 +1,11 @@
+.content-holder {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.sidebar {
+  width: 20%;
+  height: 100%; }
+  .sidebar .map-holder {
+    z-index: 1; }
