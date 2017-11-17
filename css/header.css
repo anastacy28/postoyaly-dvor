@@ -1,5 +1,7 @@
 .header {
   text-transform: uppercase; }
+  .header ul {
+    list-style: none; }
 
 .header-top {
   padding: 10px 0;
@@ -35,7 +37,7 @@
   justify-content: center; }
   .contacts-holder .title-contacts {
     color: #ffcf9b;
-    margin-bottom: 5px; }
+    padding-top: 3px; }
 
 .contacts ul {
   display: -webkit-box;
@@ -60,7 +62,8 @@
       -webkit-box-pack: center;
       -webkit-justify-content: center;
       -ms-flex-pack: center;
-      justify-content: center; } }
+      justify-content: center;
+      margin-bottom: 5px; } }
 
 @media screen and (max-width: 565px) {
   .title-contacts {

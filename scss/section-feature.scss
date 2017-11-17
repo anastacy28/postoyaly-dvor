@@ -1,0 +1,15 @@
+.section-feature {
+	color: #ffcf9b;
+	padding-left: 15px; 
+	.section-title-feature,
+	 .section-feature-description {
+		font-size: 1.3em;
+        font-weight: bold;
+        margin: 0.5em -0.6em;
+		.section-feature-list li {
+			display: block;
+			padding-left: 15px;
+		}
+	}
+}
+

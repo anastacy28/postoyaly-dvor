@@ -1,5 +1,8 @@
 .header {
 	text-transform: uppercase;
+  ul {
+    list-style: none;
+  }
 }
 .header-top {
      	padding: 10px 0;
@@ -29,7 +32,7 @@
     justify-content: center;
     .title-contacts {
     	color: #ffcf9b;
-    	margin-bottom: 5px;
+      padding-top: 3px;
     }
  }   
 
@@ -49,6 +52,7 @@
    	    text-align: center;
    	 .title-contacts {
    	 	justify-content: center;
+      margin-bottom: 5px;
    	 }
    }
 }

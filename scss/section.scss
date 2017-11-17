@@ -10,22 +10,6 @@
     justify-content: center;
 }
 
-.section-bottom {
-    padding: 10px;
-    background: rgba(255, 255, 255, 0.5);
-    .section-hotel-description {
-        font-size: 18px;
-        h1 {
-            display: inline-block;
-            font-size: 20px;
-            font-weight: bold;
-        }
-    }
-}
-
-.section-short-desciption {
-    font-size: 16px;
-}
 
 .map-adress-holder {
     padding: 0 10px;
@@ -41,4 +25,9 @@
         display: block;
     }
 }
+}
+
+.adress-block {
+    display: inline-block;
+    padding: 2% 0;
 }
