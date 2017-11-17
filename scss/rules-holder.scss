@@ -9,13 +9,28 @@ $main-color: #ffcf9b;
 	}
 }
 
+.rules-box {
+    padding: 0 10px;
+ li {
+	font-size: 1em;
+	margin: 0.3em 1.5em;
+  }
+}
+
 .booking .info-holder {
 	padding: 20px;
 	color: $main-color;
 }
 
+.r-more {
+	font-size: 1.8em;
+	margin: 0.5em 1em;
+	color:#e3b035;
+	text-decoration: underline;
+}
+
 @media  screen and (max-width: 1200px) {
 .rules-holder {
 	padding: 70px 0;
+  }
 }
-	}
