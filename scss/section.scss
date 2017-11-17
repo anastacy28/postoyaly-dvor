@@ -1,33 +1,23 @@
 .section {
 	padding: 2% 0;
-	background: url('../images/bg5.jpg') no-repeat 0 0;
 	background-size: cover;
 	width: 100%;
 	height: auto;
 }
 
 .content-holder {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
-}
-
-
-.map-adress-holder {
-    padding: 0 10px;
-    border: 5px solid #ccc;
-    background: linear-gradient(to top left, #302112, #737178, 84%, #413f47);
-    border-bottom: 5px solid #004;
-    border-right: 5px solid #004;
-.map-holder {
-    width: 100%;
-    padding: 2% 0;
-    margin-bottom: 2%;
-    iframe {
-        display: block;
-    }
-}
 }
 
 .adress-block {
     display: inline-block;
     padding: 2% 0;
+}
+
+@media  screen and (max-width: 900px) {
+    .content-holder {
+        flex-direction: column;
+    }
 }

@@ -9,23 +9,7 @@
      	border-bottom: 5px solid #004;
      	background: linear-gradient(to top left, #302112, #737178, 84%, #413f47);
 }
-
-.header-bottom {
-    background-size: cover;
-    position: relative;
-    display: block;
-    z-index: -1;
-    border-bottom: 5px solid #004;
-    .decor {
-    	position: absolute;
-    	width: 100%;
-    	height: 100%;
-    	display: block;
-    	background: rgba(84, 74, 75, 0.5);
-    	z-index: -1;
-  }
-}
-    
+   
 .contacts-holder {
 	display: flex;
     padding: 1% 0;

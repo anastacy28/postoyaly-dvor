@@ -10,3 +10,9 @@
     .section-feature .section-feature-description .section-feature-list li {
       display: block;
       padding-left: 15px; }
+
+@media screen and (max-width: 1365px) {
+  .section-feature .section-title-feature,
+  .section-feature .section-feature-description {
+    font-size: 1em;
+    margin: 0 -0.6em; } }
