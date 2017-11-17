@@ -29,7 +29,8 @@
 .contacts-holder {
 	display: flex;
     padding: 1% 0;
-    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
     .title-contacts {
     	color: #ffcf9b;
       padding-top: 3px;
