@@ -17,7 +17,7 @@
 .header .contacts ul li {
   margin-left: 2%; }
   .header .contacts ul li a {
-    font-size: 0.6em; }
+    font-size: 1em; }
 
 .footer {
   border-top: 5px solid #004;
@@ -81,8 +81,16 @@
     .title-contacts .contacts {
       font-size: 0.6em; } }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 522px) {
+  .header .contacts ul li {
+    margin-left: 2%; }
+    .header .contacts ul li a {
+      font-size: 0.8em; } }
+
+@media screen and (max-width: 432px) {
+  .header .contacts ul li {
+    margin-left: 1%; }
+    .header .contacts ul li a {
+      font-size: 0.6em; }
   .title-contacts {
-    display: none; }
-    .title-contacts .contacts ul li a {
-      font-size: 0.6em; } }
+    display: none; } }

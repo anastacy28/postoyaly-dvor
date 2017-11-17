@@ -16,9 +16,9 @@
 .contacts ul li {
   margin-left: 2%;
  a{
-  font-size: 0.6em;
-}
-}
+  font-size: 1em;
+   }
+  }
 }
 
 .footer {
@@ -71,11 +71,29 @@
 }
 }
 
-@media  screen and (max-width: 440px) {
-	.title-contacts {
-		display: none;
-  .contacts ul li a {
-    font-size: 0.6em;
+@media  screen and (max-width: 522px) {
+.header {
+.contacts ul li {
+  margin-left: 2%;
+ a{
+  font-size: 0.8em;
+   }
   }
- }
 }
+}
+
+@media  screen and (max-width: 432px) {
+  .header {
+.contacts ul li {
+  margin-left: 1%;
+ a{
+  font-size: 0.6em;
+   }
+  }
+}
+.title-contacts {
+    display: none;
+    }
+}
+
+  
