@@ -86,7 +86,7 @@
 @media  screen and (max-width: 432px) {
   .header {
 .contacts ul li {
-  margin-left: 1%;
+  margin-left: 1.5%;
  a{
   font-size: 0.6em;
    }
@@ -96,5 +96,12 @@
     display: none;
     }
 }
+
+.footer {
+  a {
+    font-size: 0.8em;
+  }
+}
+
 
   

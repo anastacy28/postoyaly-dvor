@@ -89,8 +89,11 @@
 
 @media screen and (max-width: 432px) {
   .header .contacts ul li {
-    margin-left: 1%; }
+    margin-left: 1.5%; }
     .header .contacts ul li a {
       font-size: 0.6em; }
   .title-contacts {
     display: none; } }
+
+.footer a {
+  font-size: 0.8em; }
