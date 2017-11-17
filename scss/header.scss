@@ -12,6 +12,15 @@
      	background: linear-gradient(to top left, #302112, #737178, 84%, #413f47);
 }
 
+.header {
+.contacts ul li {
+  margin-left: 2%;
+ a{
+  font-size: 0.6em;
+}
+}
+}
+
 .footer {
   border-top: 5px solid #004;
   border-bottom: 0px solid #004;
@@ -52,19 +61,21 @@
    	 }
    }
 }
-  }
 
 @media  screen and (max-width: 565px) {
 	.title-contacts {
-		font-size: 15px;
-	}
-  .contacts ul li {
-  	font-size: 12px;
+		font-size: 1em;
+  .contacts  {
+  	font-size: 0.6em;
   }
+}
 }
 
 @media  screen and (max-width: 440px) {
 	.title-contacts {
 		display: none;
-	}
+  .contacts ul li a {
+    font-size: 0.6em;
+  }
+ }
 }

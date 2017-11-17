@@ -14,6 +14,11 @@
   background: -o-linear-gradient(bottom right, #302112, #737178, 84%, #413f47);
   background: linear-gradient(to top left, #302112, #737178, 84%, #413f47); }
 
+.header .contacts ul li {
+  margin-left: 2%; }
+  .header .contacts ul li a {
+    font-size: 0.6em; }
+
 .footer {
   border-top: 5px solid #004;
   border-bottom: 0px solid #004; }
@@ -63,21 +68,21 @@
     -ms-flex-direction: column;
     flex-direction: column;
     text-align: center; }
-    .contacts-holder .contacts {
-      margin-bottom: 3px; }
-      .contacts-holder .contacts .title-contacts {
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        margin-bottom: 5px; } }
+    .contacts-holder .title-contacts {
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin-bottom: 5px; } }
 
 @media screen and (max-width: 565px) {
   .title-contacts {
-    font-size: 15px; }
-  .contacts ul li {
-    font-size: 12px; } }
+    font-size: 1em; }
+    .title-contacts .contacts {
+      font-size: 0.6em; } }
 
 @media screen and (max-width: 440px) {
   .title-contacts {
-    display: none; } }
+    display: none; }
+    .title-contacts .contacts ul li a {
+      font-size: 0.6em; } }
