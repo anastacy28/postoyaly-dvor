@@ -10,10 +10,6 @@ ul {
   padding: 0;
 }
 
-.img-holder img {
-    width: 100%;
-}
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -40,7 +36,9 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 body {
+  margin: 0;
   line-height: 1;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 ol, ul {
   list-style: none;
