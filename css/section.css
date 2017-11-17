@@ -23,6 +23,20 @@
   display: inline-block;
   padding: 2% 0; }
 
+.booking .section {
+  position: relative; }
+  .booking .section .logo {
+    position: absolute;
+    width: 15%;
+    height: 10%;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+    z-index: 10; }
+    .booking .section .logo img {
+      width: 100%; }
+
 @media screen and (max-width: 900px) {
   .content-holder {
     -webkit-box-orient: vertical;

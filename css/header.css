@@ -28,7 +28,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 1% 0;
+  padding: 1%;
   -webkit-justify-content: space-around;
   -ms-flex-pack: distribute;
   justify-content: space-around;
