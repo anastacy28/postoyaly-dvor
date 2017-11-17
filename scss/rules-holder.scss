@@ -1,7 +1,21 @@
+$main-color: #ffcf9b;
+
 .rules-holder {
-	padding: 40px 0;
+	padding: 90px 0;
 	.title-rules-holder {
 		font-size: 2em;
-		margin: 0 0.6em;
+        margin: 0.5em 5em;
+        text-align: center;
 	}
 }
+
+.booking .info-holder {
+	padding: 20px;
+	color: $main-color;
+}
+
+@media  screen and (max-width: 1200px) {
+.rules-holder {
+	padding: 70px 0;
+}
+	}
