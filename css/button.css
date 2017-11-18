@@ -1,8 +1,10 @@
+@charset "UTF-8";
 .button {
   display: block;
   padding: 20px;
   width: 48%;
-  min-width: 235px; }
+  min-width: 235px;
+  margin-bottom: 10px; }
   .button a {
     display: block;
     font-size: 1.5em;
@@ -21,3 +23,11 @@
   background: -webkit-linear-gradient(bottom right, #8a8a90, #fff, 69%, #8a8a90);
   background: -o-linear-gradient(bottom right, #8a8a90, #fff, 69%, #8a8a90);
   background: linear-gradient(to top left, #8a8a90, #fff, 69%, #8a8a90); }
+
+.bavaria {
+  font-size: 1em;
+  padding: 10px;
+  background: #004; }
+
+.bavaria:after {
+  content: "→"; }
