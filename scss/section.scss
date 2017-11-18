@@ -38,3 +38,19 @@
         flex-direction: column;
     }
 }
+
+@media  screen and (max-width: 750px) {
+             .booking .section {
+    .logo {
+         width: 21%;
+    }
+}
+}
+
+@media  screen and (max-width: 450px) {
+             .booking .section {
+                 .logo {
+                    width: 27%;
+       }
+   }
+}

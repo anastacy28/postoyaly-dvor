@@ -8,6 +8,7 @@
 @import url("section-feature.css");
 @import url("button.css");
 @import url("rules-holder.css");
+@import url("form.css");
 ul {
   margin: 0;
   padding: 0; }
