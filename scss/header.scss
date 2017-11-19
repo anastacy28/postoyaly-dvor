@@ -21,6 +21,17 @@
   }
 }
 
+.header-content {
+  display: flex;
+  align-items: center;
+    .rules {
+      min-width: 76px;
+      padding: 4px;
+      background: #004;
+      display: block;
+    }
+}
+
 .footer {
   border-top: 5px solid #004;
   border-bottom: 0px solid #004;
@@ -92,10 +103,16 @@
 .header {
 .contacts ul li {
   margin-left: 2%;
- a{
+ a {
   font-size: 0.8em;
    }
   }
+}
+}
+.header-content {
+.rules {
+  font-size: 0.8em;
+  min-width: 63px;
 }
 }
 
@@ -112,6 +129,7 @@
     display: none;
     }
 }
+
 
 .footer {
   a {
