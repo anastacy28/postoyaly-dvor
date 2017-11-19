@@ -3,12 +3,12 @@ $main-color: #ffcf9b;
     padding: 2px 0;
     display: flex;
     justify-content: center;
-    min-width: 320px;
-       .sidebasr-form {
+    min-width: 318px;
+       .section-form {
         padding: 20px 10px;
-        background: #004;
+        background: linear-gradient(to right, #b2b2ba, 30%, #cfcfd6, #6f6f7a);
         display: flex;
-        min-width: 320px;
+        min-width: 318px;
         border: 5px solid #ccc;
         border-right: 5px solid #8a8a90;
          border-bottom: 5px solid #8a8a90;
@@ -16,12 +16,79 @@ $main-color: #ffcf9b;
 -moz-box-shadow:    5px 5px 21px 0px rgba(50, 50, 50, 0.41);
 box-shadow:         5px 5px 21px 0px rgba(50, 50, 50, 0.41);
           h3 {
-            font-size: 1em;
-            color: $main-color;
+            font-size: 1.5em;
+            color: #004;
+            display: block;
+            margin-bottom: 0.5em;
           }
        }
 }
 
+.form-control {
+    background: #ccc;
+    padding: 0 0.2em;
+    display: block;
+    margin: 0.2em 0;
+}
+
+.form {
+.button {
+    background: linear-gradient(to top left, #8a8a90, #fff, 84%, #8a8a90);
+}
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    display: none;
+  }
+
+.popup {
+    position: absolute;
+    width: 300px;
+    height: 180px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    background-color: #FFF;
+  }
+
+  .close-popup {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+  }
+
+  .close-popup:before {
+    content: '';
+    background-color: #000;
+    position: absolute;
+    height: 1px;
+    width: 31px;
+    top: 11px;
+    left: -4px;
+    transform: rotate(-45deg);
+  }
+
+  .close-popup:after {
+    content: '';
+    background-color: #000;
+    position: absolute;
+    height: 1px;
+    width: 31px;
+    top: 11px;
+    transform: rotate(45deg);
+    left: -4px;
+}
 
 
 

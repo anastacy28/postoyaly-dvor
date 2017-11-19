@@ -9,24 +9,96 @@
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  min-width: 320px; }
-  .section-sidebar-form-holder .sidebasr-form {
+  min-width: 318px; }
+  .section-sidebar-form-holder .section-form {
     padding: 20px 10px;
-    background: #004;
+    background: -webkit-gradient(linear, left top, right top, from(#b2b2ba), color-stop(30%), color-stop(#cfcfd6), to(#6f6f7a));
+    background: -webkit-linear-gradient(left, #b2b2ba, 30%, #cfcfd6, #6f6f7a);
+    background: -o-linear-gradient(left, #b2b2ba, 30%, #cfcfd6, #6f6f7a);
+    background: linear-gradient(to right, #b2b2ba, 30%, #cfcfd6, #6f6f7a);
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    min-width: 320px;
+    min-width: 318px;
     border: 5px solid #ccc;
     border-right: 5px solid #8a8a90;
     border-bottom: 5px solid #8a8a90;
     -webkit-box-shadow: 5px 5px 21px 0px rgba(50, 50, 50, 0.41);
     -moz-box-shadow: 5px 5px 21px 0px rgba(50, 50, 50, 0.41);
     box-shadow: 5px 5px 21px 0px rgba(50, 50, 50, 0.41); }
-    .section-sidebar-form-holder .sidebasr-form h3 {
-      font-size: 1em;
-      color: #ffcf9b; }
+    .section-sidebar-form-holder .section-form h3 {
+      font-size: 1.5em;
+      color: #004;
+      display: block;
+      margin-bottom: 0.5em; }
+
+.form-control {
+  background: #ccc;
+  padding: 0 0.2em;
+  display: block;
+  margin: 0.2em 0; }
+
+.form .button {
+  background: -webkit-gradient(linear, right bottom, left top, from(#8a8a90), color-stop(#fff), color-stop(84%), to(#8a8a90));
+  background: -webkit-linear-gradient(bottom right, #8a8a90, #fff, 84%, #8a8a90);
+  background: -o-linear-gradient(bottom right, #8a8a90, #fff, 84%, #8a8a90);
+  background: linear-gradient(to top left, #8a8a90, #fff, 84%, #8a8a90); }
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none; }
+
+.popup {
+  position: absolute;
+  width: 300px;
+  height: 180px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  background-color: #FFF; }
+
+.close-popup {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 23px;
+  height: 23px;
+  cursor: pointer; }
+
+.close-popup:before {
+  content: '';
+  background-color: #000;
+  position: absolute;
+  height: 1px;
+  width: 31px;
+  top: 11px;
+  left: -4px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+.close-popup:after {
+  content: '';
+  background-color: #000;
+  position: absolute;
+  height: 1px;
+  width: 31px;
+  top: 11px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  left: -4px; }
 
 /* Стили формы */
 #application {

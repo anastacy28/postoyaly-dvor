@@ -27,7 +27,7 @@
   position: relative; }
   .booking .section .logo {
     position: absolute;
-    width: 15%;
+    width: 19%;
     height: 10%;
     left: 0;
     right: 0;
@@ -51,4 +51,4 @@
 
 @media screen and (max-width: 450px) {
   .booking .section .logo {
-    width: 27%; } }
+    width: 28%; } }

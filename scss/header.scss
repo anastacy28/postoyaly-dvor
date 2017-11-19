@@ -51,6 +51,22 @@
         flex-direction: column;
     }
    }
+   .booking .header {
+    position: relative;
+       .page-back {
+        position: absolute;
+        z-index: 10;
+        display: block;
+        padding: 5px;
+        background: #004;
+        bottom: -30px;
+        left: 5px;
+        text-transform: lowercase;
+      }
+    }
+        .page-back:before {
+          content: "←";
+   }
 	
 @media  screen and (max-width: 655px) {
    .contacts-holder {
