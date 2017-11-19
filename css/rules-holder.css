@@ -23,7 +23,8 @@
 
 @media screen and (max-width: 1200px) {
   .rules-holder {
-    padding: 70px 0; } }
+    padding-top: 70px;
+    padding-bottom: 10px; } }
 
 @media screen and (max-width: 1000px) {
   .rules-holder .title-rules-holder {
@@ -50,6 +51,6 @@
     margin: 0.3em 3em; }
   .rules-box li {
     font-size: 0.7em;
-    margin: 0.2em 1em; }
+    margin: 0.2em 1.2em; }
   .r-more {
     font-size: 0.7em; } }

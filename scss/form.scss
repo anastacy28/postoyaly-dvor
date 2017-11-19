@@ -1,3 +1,42 @@
+$main-color: #ffcf9b;
+.section-sidebar-form-holder {
+    padding: 2px 0;
+    display: flex;
+    justify-content: center;
+    min-width: 320px;
+       .sidebasr-form {
+        padding: 20px 10px;
+        background: #004;
+        display: flex;
+        min-width: 320px;
+        border: 5px solid #ccc;
+        border-right: 5px solid #8a8a90;
+         border-bottom: 5px solid #8a8a90;
+        -webkit-box-shadow: 5px 5px 21px 0px rgba(50, 50, 50, 0.41);
+-moz-box-shadow:    5px 5px 21px 0px rgba(50, 50, 50, 0.41);
+box-shadow:         5px 5px 21px 0px rgba(50, 50, 50, 0.41);
+          h3 {
+            font-size: 1em;
+            color: $main-color;
+          }
+       }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Стили формы */
 #application {
     width: 475px;
