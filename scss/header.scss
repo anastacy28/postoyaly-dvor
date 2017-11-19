@@ -33,17 +33,20 @@
     }
 }
 
+.header {
+.contacts-holder {
+  display: flex;
+    .title-contacts {
+      color: #ffcf9b;
+      padding-top: 3px;
+    }
+ }  
+}
+
 .footer {
   border-top: 5px solid #004;
   border-bottom: 0px solid #004;
 }
-
-.contacts-holder {
-    .title-contacts {
-    	color: #ffcf9b;
-      padding-top: 3px;
-    }
- }   
 
 .contacts ul {
 		display: flex;
