@@ -24,6 +24,7 @@
 .header-content {
   display: flex;
   align-items: center;
+  justify-content: space-around;
     .rules {
       min-width: 76px;
       padding: 4px;
@@ -38,10 +39,6 @@
 }
 
 .contacts-holder {
-	display: flex;
-    padding: 1%;
-    justify-content: space-around;
-    width: 100%;
     .title-contacts {
     	color: #ffcf9b;
       padding-top: 3px;
@@ -130,6 +127,12 @@
     }
 }
 
+.header-content {
+.rules {
+  font-size: 0.7em;
+  min-width: 47px;
+}
+}
 
 .footer {
   a {
