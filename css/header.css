@@ -8,7 +8,7 @@
 
 .header-top,
 .footer {
-  padding: 10px 0;
+  padding: 15px 0;
   border-bottom: 5px solid #004;
   background: -webkit-gradient(linear, right bottom, left top, from(#302112), color-stop(#737178), color-stop(84%), to(#413f47));
   background: -webkit-linear-gradient(bottom right, #302112, #737178, 84%, #413f47);
@@ -59,15 +59,16 @@
   .contacts ul li {
     margin-left: 20px; }
 
-.footer {
+.footer .contacts-holder {
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: distribute;
-  justify-content: space-around; }
-  .footer .contacts ul {
+  width: 100%; }
+  .footer .contacts-holder .contacts ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;

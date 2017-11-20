@@ -7,7 +7,7 @@
 }
 .header-top,
 .footer {
-     	padding: 10px 0;
+     	padding: 15px 0;
      	border-bottom: 5px solid #004;
      	background: linear-gradient(to top left, #302112, #737178, 84%, #413f47);
 }
@@ -56,12 +56,15 @@
 	}
 
   .footer {
-    display: flex;
-    justify-content: space-around;
+      .contacts-holder {
+             justify-content: space-around;
+             display: flex;
+             width: 100%;
        .contacts ul {
         flex-direction: column;
     }
    }
+  }
    .booking .header {
     position: relative;
        .page-back {
