@@ -9,10 +9,12 @@
         <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700&amp;subset=cyrillic" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="php/main.php">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
         <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-        <script src="js/mail.js"></script> 
+        <script src="js/mail.js"></script>
+        <script src="php/mail.php"></script> 
     </head>
     <body>
     <div class="booking">
@@ -135,6 +137,7 @@
                         <input class="form-control" id="prib" type="date"  /required>
                         <label for="prib">Дата отъезда:</label>
                         <input class="form-control" id="otb" type="date"  /required>
+                        <input class="bezspama" type="text" style="display: none" value="" />
                        <button class="button" type="submit">Отправить заявку</button>
                      </form> 
                      <div class="overlay js-overlay-thank-you">
