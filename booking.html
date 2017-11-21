@@ -9,12 +9,10 @@
         <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700&amp;subset=cyrillic" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="php/main.php">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
         <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
         <script src="js/mail.js"></script>
-        <script src="php/mail.php"></script> 
     </head>
     <body>
     <div class="booking">
@@ -124,21 +122,20 @@
 <div class="section-sidebar-form-holder"> 
      <div class="container-secondary">
          <section id="section-form" class="section-form">
-              <form id="form" action="mail.php"  method="POST">
+              <form id="form" method="POST">
                    <h3>Онлайн бронирование</h3>
-                        <input style="display:none;" type="text" name="Заявка из раздела" value="Раздел">
-                        <label for="name-visa">Введите Ваше имя:</label>
+                        <input style="display:none;" type="text" name="Заявка из раздела" value="Онлайн бронирование">
+                        <label for="name-visa">Введите Ваше имя и фамилию:</label>
                         <input class="form-control" type="text" name="Имя" id="name-visa" placeholder="Андрей Шевченко" required />
                         <label for="phone-visa">Контактный номер:</label>
                         <input class="form-control" type="text" name="Номер телефона" id="phone-visa" placeholder="+38(0--) -------" required />
                         <label for="nomer">Выберите:</label>
-                        <input class="form-control" id="nomer" type="text" placeholder="таун-хаус/апартаменты/..."  /required>
+                        <input class="form-control" id="nomer" type="text" name="Тип номера"placeholder="таун-хаус/апартаменты/..."  /required>
                         <label for="prib">Дата прибытия:</label>
-                        <input class="form-control" id="prib" type="date"  /required>
+                        <input class="form-control" id="prib" type="date"  name="Дата прибытия" /required>
                         <label for="prib">Дата отъезда:</label>
-                        <input class="form-control" id="otb" type="date"  /required>
-                        <input class="bezspama" type="text" style="display: none" value="" />
-                       <button class="button" type="submit">Отправить заявку</button>
+                        <input class="form-control" id="otb" type="date" name="Дата отъезда"  /required>
+                        <button class="button" type="submit">Отправить заявку</button>
                      </form> 
                      <div class="overlay js-overlay-thank-you">
                        <div class="popup js-thank-you">
