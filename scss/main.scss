@@ -129,16 +129,11 @@ hr {
   padding: 0 14%;
 }
 .main {
-  position: relative;
-  .bg-image-holder {
-    position: absolute;
-    z-index: 10;
-    width: 100%;
-    height: auto;
-    top: 0;
-    left: 0;
-    display: block;
-  }
+  padding: 2% 0;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  z-index: 10;
 }
 
 @media  screen and (max-width: 1380px) {
