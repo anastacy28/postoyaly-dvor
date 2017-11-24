@@ -35,6 +35,9 @@
 }
 
 @media  screen and (max-width: 1235px) {
+  .content-holder {
+    margin-bottom: 1em;
+  }
   .booking .section {
     .logo {
          width: 12%;
@@ -53,6 +56,7 @@
 @media  screen and (max-width: 900px) {
     .content-holder {
         flex-direction: column;
+        margin-bottom: 0.5em;
     }
 .booking .section {
     .logo {

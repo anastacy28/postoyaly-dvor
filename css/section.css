@@ -39,6 +39,8 @@
       width: 100%; }
 
 @media screen and (max-width: 1235px) {
+  .content-holder {
+    margin-bottom: 1em; }
   .booking .section .logo {
     width: 12%; } }
 
@@ -52,7 +54,8 @@
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
-    flex-direction: column; }
+    flex-direction: column;
+    margin-bottom: 0.5em; }
   .booking .section .logo {
     width: 25%; } }
 

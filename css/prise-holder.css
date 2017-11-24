@@ -1,7 +1,7 @@
 .prise-holder {
   padding: 0.5em;
   font-size: 1.2em;
-  margin: 1em 0;
+  margin: 1% 0;
   max-width: 235px;
   background: -webkit-gradient(linear, right bottom, left top, from(#8a8a90), color-stop(#fff), color-stop(70%), to(#8a8a90));
   background: -webkit-linear-gradient(bottom right, #8a8a90, #fff, 70%, #8a8a90);

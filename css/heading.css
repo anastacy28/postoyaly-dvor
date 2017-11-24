@@ -14,15 +14,20 @@
   margin-bottom: 0.1em; }
   .heading h2 {
     font-size: 1.3em; }
-  .heading .strelka-holder {
-    position: absolute;
-    display: block;
-    width: 8%;
-    height: auto;
-    right: 0;
-    left: 0;
-    z-index: 1;
-    margin: 0 auto;
-    top: 39%; }
-    .heading .strelka-holder img {
-      width: 100%; }
+
+.strelka-holder {
+  position: absolute;
+  display: block;
+  width: 8%;
+  height: auto;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  margin: 0 auto;
+  top: 39%; }
+  .strelka-holder img {
+    width: 100%; }
+
+@media screen and (max-width: 700px) {
+  .strelka-holder {
+    top: 67%; } }

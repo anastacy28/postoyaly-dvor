@@ -61,7 +61,7 @@
                     <div class="logo">
                         <img src="images/logo.png" alt="апарт-отель">
                     </div>
-                       <div class="sl-show">
+                       <div class="sl-show sl-show1">
                             <div class="slick-item">
                                  <div class="img-holder">
                                       <img src="images/image1.JPG" alt="Постоялый двор">
@@ -90,7 +90,7 @@
                         </div>
                     </div>
                   <div class="slaider-bottom">
-                    <div class="sl-nav"> 
+                    <div class="sl-nav sl-nav1"> 
                             <div class="slick-item">
                                  <div class="img-holder">
                                       <img src="images/image1.JPG" alt="постоялый двор">
@@ -170,7 +170,7 @@
   <!--start-content-holder--> <div class="content-holder"> <!--second-part apartamenti-->
             <div class="double-slaider">
                   <div class="slaider-top">
-                       <div class="sl-show">
+                       <div class="sl-show sl-show2">
                             <div class="slick-item">
                                  <div class="img-holder">
                                       <img src="images/ap-img1.JPG" alt="Постоялый двор">
@@ -224,7 +224,7 @@
                         </div>
                     </div>
                   <div class="slaider-bottom">
-                    <div class="sl-nav"> 
+                    <div class="sl-nav sl-nav2"> 
                             <div class="slick-item">
                                  <div class="img-holder">
                                       <img src="images/ap-img1.JPG" alt="постоялый двор">
@@ -318,7 +318,7 @@
   <!--start-content-holder--> <div class="content-holder"> <!--second-part apartamenti-->
             <div class="double-slaider">
                   <div class="slaider-top">
-                       <div class="sl-show">
+                       <div class="sl-show sl-show3">
                             <div class="slick-item">
                                  <div class="img-holder">
                                       <img src="images/th-img1.jpg" alt="Постоялый двор">
@@ -342,7 +342,7 @@
                         </div>
                     </div>
                   <div class="slaider-bottom">
-                    <div class="sl-nav"> 
+                    <div class="sl-nav sl-nav3"> 
                             <div class="slick-item">
                                  <div class="img-holder">
                                       <img src="images/th-img1.jpg" alt="постоялый двор">
@@ -396,7 +396,9 @@
   <hr>
       </div>
   </div>  <!--finish-content-holder-->
-  <a class="bavaria" href="http://bavaria-hotel.com.ua/">Наши партнеры: отель "Bavaria"</a>
+  <div class="bavaria-holder">
+      <a class="bavaria" href="http://bavaria-hotel.com.ua/">Наши партнеры: отель "Bavaria"</a>
+  </div>
  </div>
 </div>         
 </main>
@@ -422,12 +424,44 @@
      </div>  
 </footer>
     <script>
-      $('.sl-show').slick({
+      $('.sl-show1').slick({
+        autoplay: true,
+        autoSpeed: 1000,
   cssEase: 'ease-in',
   asNavFor: '.sl-nav',
   fade: true
 });
-$('.sl-nav').slick({
+$('.sl-nav1').slick({
+  autoplay: true,
+  autoSpeed: 1000,
+  dots: false,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  asNavFor: '.sl-show',
+  focusOnSelect: true,
+});
+    </script>
+     <script>
+      $('.sl-show2').slick({
+  cssEase: 'ease-in',
+  asNavFor: '.sl-nav',
+  fade: true
+});
+$('.sl-nav2').slick({
+  dots: false,
+  slidesToShow: 7,
+  slidesToScroll: 1,
+  asNavFor: '.sl-show',
+  focusOnSelect: true,
+});
+    </script>
+     <script>
+      $('.sl-show3').slick({
+  cssEase: 'ease-in',
+  asNavFor: '.sl-nav',
+  fade: true
+});
+$('.sl-nav3').slick({
   dots: false,
   slidesToShow: 7,
   slidesToScroll: 1,

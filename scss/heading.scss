@@ -9,6 +9,7 @@
 	h2 {
 		font-size: 1.3em;
 	}
+   } 
 	.strelka-holder {
 		position: absolute;
         display: block;
@@ -23,4 +24,11 @@
 			width: 100%;
 		}
 	} 
+
+
+@media screen and (max-width: 700px) {
+.strelka-holder {
+               top: 67%;
+   }
 }
+  
