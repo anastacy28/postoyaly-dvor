@@ -8,6 +8,8 @@
     .double-slaider .slaider-top .slick-next:before,
     .double-slaider .slaider-top .slick-prev:before {
       content: ""; }
+  .double-slaider .sl-nav .slick-item {
+    padding-right: 10px; }
   .double-slaider .logo {
     position: absolute;
     width: 25%;

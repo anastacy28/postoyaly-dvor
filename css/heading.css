@@ -1,0 +1,28 @@
+.heading {
+  padding: 1em 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: #004;
+  color: #f4a460;
+  position: relative;
+  margin-bottom: 0.1em; }
+  .heading h2 {
+    font-size: 1.3em; }
+  .heading .strelka-holder {
+    position: absolute;
+    display: block;
+    width: 8%;
+    height: auto;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    margin: 0 auto;
+    top: 39%; }
+    .heading .strelka-holder img {
+      width: 100%; }

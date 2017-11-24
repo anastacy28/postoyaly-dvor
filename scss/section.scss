@@ -1,14 +1,15 @@
 .section {
-	padding: 2% 0;
-	background-size: cover;
-	width: 100%;
-	height: auto;
+	  padding: 1% 0;
+    background-size: contain;
+    width: 100%;
+    height: auto;
 }
 
 .content-holder {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 2em;
 }
 
 .adress-block {

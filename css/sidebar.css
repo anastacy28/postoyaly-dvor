@@ -18,7 +18,8 @@
   background: -o-linear-gradient(bottom right, #302112, #737178, 84%, #413f47);
   background: linear-gradient(to top left, #302112, #737178, 84%, #413f47);
   border-bottom: 5px solid #004;
-  border-right: 5px solid #004; }
+  border-right: 5px solid #004;
+  z-index: 1; }
   .info-holder .map-holder {
     width: 100%;
     border: 2px solid #8a8a90; }

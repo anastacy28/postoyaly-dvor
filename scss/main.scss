@@ -9,12 +9,21 @@
 @import url("button.css");
 @import url("rules-holder.css");
 @import url("form.css");
+@import url("heading.css");
+@import url("invitation-holder.css");
+@import url("prise-holder.css");
 
 $main-color: #ffcf9b;
 
 ul {
   margin: 0;
   padding: 0;
+}
+
+.clearfix:after {
+   display: block;
+   content: "";
+   clear: both;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -129,11 +138,17 @@ hr {
   padding: 0 14%;
 }
 .main {
-  padding: 2% 0;
+  position: relative;
+   .snow-holder {
+  position: absolute;
   background-size: cover;
   width: 100%;
   height: auto;
-  z-index: 10;
+  z-index: 0;
+  img {
+    width: 100%;
+  }
+}
 }
 
 @media  screen and (max-width: 1380px) {

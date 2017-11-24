@@ -9,9 +9,17 @@
 @import url("button.css");
 @import url("rules-holder.css");
 @import url("form.css");
+@import url("heading.css");
+@import url("invitation-holder.css");
+@import url("prise-holder.css");
 ul {
   margin: 0;
   padding: 0; }
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both; }
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -113,6 +121,17 @@ hr {
 
 .container-secondary {
   padding: 0 14%; }
+
+.main {
+  position: relative; }
+  .main .snow-holder {
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    z-index: 0; }
+    .main .snow-holder img {
+      width: 100%; }
 
 @media screen and (max-width: 1380px) {
   .container {
