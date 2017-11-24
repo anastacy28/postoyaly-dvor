@@ -142,7 +142,7 @@ hr {
    .snow-holder {
   position: absolute;
   background-size: cover;
-  width: 100%;
+  width: 18%;
   height: auto;
   z-index: 0;
   img {
@@ -151,6 +151,11 @@ hr {
 }
 }
 
+.booking .main {
+  .snow-holder {
+     z-index: 1;
+}
+}
 @media  screen and (max-width: 1380px) {
 .container {
   padding: 0 2%;

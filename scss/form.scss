@@ -30,6 +30,9 @@ box-shadow:         5px 5px 21px 0px rgba(50, 50, 50, 0.41);
     display: block;
     margin: 0.2em 0;
 }
+.form-last {
+    margin-bottom: 18px;
+}
 
 .form {
 .button {
@@ -53,7 +56,7 @@ box-shadow:         5px 5px 21px 0px rgba(50, 50, 50, 0.41);
     width: 270px;
     height: 150px;
     left: 50%;
-    top: 60%;
+    bottom: 10%;
     transform: translate(-50%, -50%);
     padding: 20px;
     background: linear-gradient(to top left, #8a8a90, #fff, 84%, #8a8a90);

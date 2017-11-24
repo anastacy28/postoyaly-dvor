@@ -34,11 +34,9 @@
     font-size: 1.2em; } }
 
 @media screen and (max-width: 700px) {
-  .rules-holder {
-    padding: 50px 0; }
-    .rules-holder .title-rules-holder {
-      font-size: 1em;
-      margin: 0.4em 5em; }
+  .rules-holder .title-rules-holder {
+    font-size: 1em;
+    margin: 0.4em 5em; }
   .rules-box li {
     font-size: 0.8em;
     margin: 0.3em 1.5em; }

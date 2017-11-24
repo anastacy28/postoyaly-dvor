@@ -1,5 +1,5 @@
 .section {
-  padding: 1% 0;
+  padding: 0.5% 0;
   background-size: contain;
   width: 100%;
   height: auto; }
@@ -18,7 +18,7 @@
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-bottom: 2em; }
+  margin-bottom: 1%; }
 
 .adress-block {
   display: inline-block;

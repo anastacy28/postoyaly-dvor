@@ -38,6 +38,9 @@
   display: block;
   margin: 0.2em 0; }
 
+.form-last {
+  margin-bottom: 18px; }
+
 .form .button {
   background: -webkit-gradient(linear, right bottom, left top, from(#8a8a90), color-stop(#fff), color-stop(84%), to(#8a8a90));
   background: -webkit-linear-gradient(bottom right, #8a8a90, #fff, 84%, #8a8a90);
@@ -60,7 +63,7 @@
   width: 270px;
   height: 150px;
   left: 50%;
-  top: 60%;
+  bottom: 10%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
