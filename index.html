@@ -61,7 +61,7 @@
                     <div class="logo">
                         <img src="images/logo.png" alt="апарт-отель">
                     </div>
-                       <div class="sl-show sl-show1">
+                       <div class="sl-show sl-show-first">
                             <div class="slick-item">
                                  <div class="img-holder">
                                       <img src="images/image1.JPG" alt="Постоялый двор">
@@ -90,7 +90,7 @@
                         </div>
                     </div>
                   <div class="slaider-bottom">
-                    <div class="sl-nav sl-nav1"> 
+                    <div class="sl-nav sl-nav-first"> 
                             <div class="slick-item">
                                  <div class="img-holder">
                                       <img src="images/image1.JPG" alt="постоялый двор">
@@ -170,7 +170,7 @@
   <!--start-content-holder--> <div class="content-holder"> <!--second-part apartamenti-->
             <div class="double-slaider">
                   <div class="slaider-top">
-                       <div class="sl-show sl-show2">
+                       <div class="sl-show sl-show-second">
                             <div class="slick-item">
                                  <div class="img-holder">
                                       <img src="images/ap-img1.JPG" alt="Постоялый двор">
@@ -224,7 +224,7 @@
                         </div>
                     </div>
                   <div class="slaider-bottom">
-                    <div class="sl-nav sl-nav2"> 
+                    <div class="sl-nav sl-nav-second"> 
                             <div class="slick-item">
                                  <div class="img-holder">
                                       <img src="images/ap-img1.JPG" alt="постоялый двор">
@@ -424,14 +424,14 @@
      </div>  
 </footer>
     <script>
-      $('.sl-show1').slick({
-        autoplay: true,
-        autoSpeed: 1000,
+      $('.sl-show-first').slick({
+  autoplay: true,
+  autoSpeed: 1000,
   cssEase: 'ease-in',
   asNavFor: '.sl-nav',
   fade: true
 });
-$('.sl-nav1').slick({
+$('.sl-nav-first').slick({
   autoplay: true,
   autoSpeed: 1000,
   dots: false,
@@ -442,20 +442,19 @@ $('.sl-nav1').slick({
 });
     </script>
      <script>
-$('.sl-show2').slick({
+      $('.sl-show-second').slick({
   cssEase: 'ease-in',
   asNavFor: '.sl-nav',
   fade: true
 });
-$('.sl-nav2').slick({
+$('.sl-nav-second').slick({
   dots: false,
-  slidesToShow: 7,
+  slidesToShow: 5,
   slidesToScroll: 1,
   asNavFor: '.sl-show',
   focusOnSelect: true,
 });
-    </script>
-     <script>
+    </script>     <script>
       $('.sl-show3').slick({
   cssEase: 'ease-in',
   asNavFor: '.sl-nav',
@@ -463,7 +462,7 @@ $('.sl-nav2').slick({
 });
 $('.sl-nav3').slick({
   dots: false,
-  slidesToShow: 7,
+  slidesToShow: 5,
   slidesToScroll: 1,
   asNavFor: '.sl-show',
   focusOnSelect: true,
