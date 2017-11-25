@@ -32,11 +32,24 @@
   -webkit-justify-content: space-around;
   -ms-flex-pack: distribute;
   justify-content: space-around; }
-  .header-content .rules {
-    min-width: 76px;
-    padding: 4px;
-    background: #004;
-    display: block; }
+
+.rules {
+  min-width: 86px;
+  padding: 10px;
+  display: block;
+  background: -webkit-gradient(linear, right bottom, left top, from(#8a8a90), color-stop(#fff), color-stop(84%), to(#8a8a90));
+  background: -webkit-linear-gradient(bottom right, #8a8a90, #fff, 84%, #8a8a90);
+  background: -o-linear-gradient(bottom right, #8a8a90, #fff, 84%, #8a8a90);
+  background: linear-gradient(to top left, #8a8a90, #fff, 84%, #8a8a90);
+  text-align: center;
+  border-radius: 45px;
+  color: #004; }
+
+.rules:hover {
+  background: -webkit-gradient(linear, right bottom, left top, from(#8a8a90), color-stop(#fff), color-stop(94%), to(#8a8a90));
+  background: -webkit-linear-gradient(bottom right, #8a8a90, #fff, 94%, #8a8a90);
+  background: -o-linear-gradient(bottom right, #8a8a90, #fff, 94%, #8a8a90);
+  background: linear-gradient(to top left, #8a8a90, #fff, 94%, #8a8a90); }
 
 .header .contacts-holder {
   display: -webkit-box;
@@ -82,7 +95,12 @@
     z-index: 10;
     display: block;
     padding: 5px;
-    background: #004;
+    background: -webkit-gradient(linear, right bottom, left top, from(#8a8a90), color-stop(#fff), color-stop(84%), to(#8a8a90));
+    background: -webkit-linear-gradient(bottom right, #8a8a90, #fff, 84%, #8a8a90);
+    background: -o-linear-gradient(bottom right, #8a8a90, #fff, 84%, #8a8a90);
+    background: linear-gradient(to top left, #8a8a90, #fff, 84%, #8a8a90);
+    border-radius: 45px;
+    color: #004;
     bottom: -30px;
     left: 5px;
     text-transform: lowercase; }
@@ -117,21 +135,17 @@
     .header .contacts ul li a {
       font-size: 0.8em; } }
 
-.header-content .rules {
-  font-size: 0.8em;
-  min-width: 63px; }
-
 @media screen and (max-width: 432px) {
   .header .contacts ul li {
     margin-left: 1.5%; }
     .header .contacts ul li a {
       font-size: 0.6em; }
   .title-contacts {
-    display: none; } }
-
-.header-content .rules {
-  font-size: 0.7em;
-  min-width: 47px; }
+    display: none; }
+  .rules {
+    font-size: 0.7em;
+    min-width: 47px;
+    padding: 5px; } }
 
 .footer a {
   font-size: 0.8em; }

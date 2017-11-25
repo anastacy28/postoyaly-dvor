@@ -25,17 +25,18 @@
 .bavaria {
 	font-size: 1em;
     padding: 10px;
-    background: #004;
+    background: linear-gradient(to top left, #8a8a90, #fff, 84%, #8a8a90);
+    border-radius: 45px;
+    color: #004;
     display: block;
     min-width: 190px;
+    margin: 20px 0;
 }
 .bavaria:after {
 	content: "→";
 }
 }
 
-@media screen and (max-width: 700px) {
-    .button {
-    padding: 1% 0;
- }
-}	
+.bavaria:hover {
+	background: linear-gradient(to top left, #8a8a90, #fff, 94%, #8a8a90);
+}

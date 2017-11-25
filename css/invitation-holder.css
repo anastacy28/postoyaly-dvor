@@ -34,9 +34,7 @@
 @media screen and (max-width: 1200px) {
   .content-invitation-holder p {
     font-size: 1.2em;
-    margin: 0.5em 0; }
-  .img-holder-tree {
-    width: 28%; } }
+    margin: 0.5em 0; } }
 
 @media screen and (max-width: 650px) {
   .content-invitation-holder p {
