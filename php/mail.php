@@ -1,7 +1,7 @@
 <?php
 
-$recepient = "anastacy2882@gmail.com";
-$sitename = "Postoyaly-dvor";
+$recepient = "postoyaly-dvor@ukr.net";
+$sitename = "postoyaly-dvor.com.ua";
 
 $method = $_SERVER['REQUEST_METHOD'];
 

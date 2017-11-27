@@ -1,9 +1,9 @@
 .double-slaider {
   width: 70%;
-  margin-right: 4%;
+  margin-right: 20px;
   margin-bottom: 3px; }
   .double-slaider .slaider-top {
-    margin-bottom: 2%;
+    margin-bottom: 10px;
     position: relative; }
     .double-slaider .slaider-top .slick-next:before,
     .double-slaider .slaider-top .slick-prev:before {
