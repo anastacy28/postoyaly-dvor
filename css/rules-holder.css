@@ -4,7 +4,7 @@
     font-size: 2em;
     margin: 0.5em 5em;
     text-align: center; }
-    .rules-holder .title-rules-holder span {
+    .rules-holder .title-rules-holder .block {
       display: block; }
 
 .rules-box {
