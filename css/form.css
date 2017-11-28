@@ -36,7 +36,8 @@
   background: #ccc;
   padding: 0 0.2em;
   display: block;
-  margin: 0.2em 0; }
+  margin: 0.2em 0;
+  min-width: 179px; }
 
 .form-last {
   margin-bottom: 18px; }
