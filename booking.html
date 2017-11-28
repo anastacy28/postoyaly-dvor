@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-    <html lang="en">
+    <html lang="ru">
     <head>
         <meta charset="UTF-8">
         <title>postoyaly-dvor</title>
@@ -12,7 +12,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
         <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-        <script src="js/mail.js"></script>
     </head>
     <body>
     <div class="booking">
@@ -120,8 +119,8 @@
                                             <li>пользование Интернетом.</li>
                                          </ul>
                                     </li>
+                                    </ol>
                                     <p>РЕЖИМ РАБОТЫ ГОСТИНИЦЫ – КРУГЛОСУТОЧНЫЙ.</p>
-                                </ol>
                                 <div><a class="r-more" href="#open1" onclick="show('hidden_1',1000,5)">Читать все правила отеля</a></div>
                                 </div>
                             </div><!--close info-hoder-->
@@ -140,11 +139,11 @@
                         <label for="email-visa">E-mail:</label>
                         <input class="form-control" type="email" name="E-mail" id="email-visa" placeholder="name@something.com" />
                         <label for="nomer">Выберите:</label>
-                        <input class="form-control" id="nomer" type="text" name="Тип номера"placeholder="таун-хаус/апартаменты"  /required>
+                        <input class="form-control" id="nomer" type="text" name="Тип номера" placeholder="таун-хаус/апартаменты"  required />
                         <label for="prib">Дата прибытия:</label>
-                        <input class="form-control" id="prib" type="date"  name="Дата прибытия" /required>
+                        <input class="form-control" id="prib" type="date"  name="Дата прибытия" required />
                         <label for="prib">Дата отъезда:</label>
-                        <input class="form-control form-last" id="otb" type="date" name="Дата отъезда"  /required>
+                        <input class="form-control form-last" id="otb" type="date" name="Дата отъезда"  required />
                         <button class="button" type="submit">Отправить заявку</button>
                      </form> 
                      <div class="overlay js-overlay-thank-you">
@@ -156,7 +155,7 @@
            </section> 
          </div>
      </div>    
-</div>                                        
+ </div>                                        
 </main>
 <footer class="footer">
 <div class="container">
@@ -180,23 +179,6 @@
      </div>  
 </footer>
 </div>
-<script language="JavaScript" type="text/javascript">
- /*<![CDATA[*/
- var s=[],s_timer=[];
- function show(id,h,spd)
- { s[id]= s[id]==spd? -spd : spd;
- s_timer[id]=setTimeout(function() {
- var obj=document.getElementById(id);
- if(obj.offsetHeight+s[id]>=h){obj.style.height=h+"px";obj.style.overflow="auto";}
- else if(obj.offsetHeight+s[id]<=0){obj.style.height=0+"px";obj.style.display="none";}
- else {obj.style.height=(obj.offsetHeight+s[id])+"px";
- obj.style.overflow="hidden";
- obj.style.display="block";
- setTimeout(arguments.callee, 10);
- }
- }, 10);
- }
- /*]]>*/
- </script>
+ <script src="js/all.js"></script>
   </body>
 </html>
