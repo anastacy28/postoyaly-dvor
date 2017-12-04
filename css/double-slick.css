@@ -10,6 +10,12 @@
       content: ""; }
   .double-slaider .sl-nav .slick-item {
     padding-right: 10px; }
+  .double-slaider .sl-nav button.slick-next {
+    right: -20px;
+    z-index: 2; }
+  .double-slaider .sl-nav button.slick-prev {
+    left: -20px;
+    z-index: 2; }
   .double-slaider .logo {
     position: absolute;
     width: 25%;

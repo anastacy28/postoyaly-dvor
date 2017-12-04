@@ -15,6 +15,16 @@
 		padding-right: 10px;
 	}
 
+	.sl-nav	button.slick-next {
+			right: -20px;
+			z-index: 2;
+		}
+		.sl-nav	button.slick-prev {
+			left: -20px;
+			z-index: 2;
+		}
+
+
 	.logo {
        position: absolute;
        width: 25%;
