@@ -1,0 +1,35 @@
+.akciya {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2% 0;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #004; }
+  .akciya .img-holder {
+    width: 15%;
+    position: absolute;
+    top: 0;
+    right: 0; }
+    .akciya .img-holder img {
+      width: 100%;
+      height: auto; }
+
+.how-akciya {
+  font-size: 1.5em;
+  color: #fff;
+  background: rgba(232, 73, 70, 0.8);
+  padding: 5px;
+  border-radius: 5px; }
+
+@media screen and (max-width: 730px) {
+  .how-akciya {
+    display: block;
+    max-width: 42px;
+    margin: 0 auto; } }
+
+@media screen and (max-width: 650px) {
+  .akciya {
+    font-size: 0.7em; }
+  .how-akciya {
+    max-width: 32px; } }

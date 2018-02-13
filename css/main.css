@@ -12,6 +12,8 @@
 @import url("heading.css");
 @import url("invitation-holder.css");
 @import url("prise-holder.css");
+@import url("akciya.css");
+@import url("cross.css");
 ul {
   margin: 0;
   padding: 0; }
@@ -129,7 +131,8 @@ hr {
     background-size: cover;
     width: 18%;
     height: auto;
-    z-index: 0; }
+    z-index: 0;
+    right: 0; }
     .main .snow-holder img {
       width: 100%; }
 

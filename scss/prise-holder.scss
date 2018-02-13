@@ -1,8 +1,13 @@
 
+.box-for-button {
+  display: flex;
+  flex-direction: column;
+  
+}
 .prise-holder {
 	padding: 0.5em;
 	font-size: 1.2em;
-	margin: 1% 0;
+	margin: 2% auto;
 	max-width: 235px;
     background: linear-gradient(to top left, #8a8a90, #fff, 70%, #8a8a90);
     border-radius: 34px;
@@ -15,4 +20,6 @@ span {
    }
 
 }
-
+.prise .red {
+  color: #E84E2A;
+}
