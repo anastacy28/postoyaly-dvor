@@ -14,6 +14,5 @@
     .prise-holder .prise span {
       display: block; }
 
-.red {
-  color: #E84E2A;
-  display: block; }
+.prise .red {
+  color: #E84E2A; }
