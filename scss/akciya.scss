@@ -26,17 +26,24 @@
 
 @media  screen and (max-width: 730px) {
       .how-akciya {
-      	display: block;
       	max-width: 42px;
       	margin: 0 auto;
+      		font-size: 1em;
       }
 }
 
-@media  screen and (max-width: 650px) {
+@media  screen and (max-width: 698x) {
  .akciya {
- 	font-size: 0.7em;
+ 	font-size: 0.6em;
  }
 .how-akciya {
-	max-width: 32px;
+	font-size: 0.8em;
+  }
 }
+@media  screen and (max-width: 460x) {
+ .akciya {
+ 	.akciya-text {
+ 	font-size: 0.6em;
+   }
+ }
 }

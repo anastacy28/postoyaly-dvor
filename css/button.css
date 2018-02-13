@@ -29,7 +29,8 @@
     border: 2px solid #ccc;
     margin: 0 auto; }
     .button a .red {
-      color: #E84E2A; }
+      color: #E84E2A;
+      display: block; }
 
 .button a:hover {
   background: -webkit-gradient(linear, right bottom, left top, from(#8a8a90), color-stop(#fff), color-stop(69%), to(#8a8a90));
