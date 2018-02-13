@@ -1,4 +1,13 @@
 @charset "UTF-8";
+.box-for-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
 .button {
   display: block;
   padding: 1% 0;
@@ -48,3 +57,17 @@
   background: -webkit-linear-gradient(bottom right, #8a8a90, #fff, 94%, #8a8a90);
   background: -o-linear-gradient(bottom right, #8a8a90, #fff, 94%, #8a8a90);
   background: linear-gradient(to top left, #8a8a90, #fff, 94%, #8a8a90); }
+
+@media screen and (max-width: 900px) {
+  .box-for-button {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse; } }
+
+@media screen and (max-width: 600px) {
+  .box-for-button {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; } }
