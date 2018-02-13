@@ -13,7 +13,7 @@
 		display: block;
 		font-size: 1.5em;
 		color: #004;
-		padding: 20px;
+		padding: 9px;
 		max-width: 235px;
 		background: linear-gradient(to top left, #8a8a90, #fff, 84%, #8a8a90);
 		text-align: center;
@@ -52,7 +52,7 @@
 }
 @media  screen and (max-width: 900px) {
 	.box-for-button {
-  flex-direction: row-reverse;
+  flex-direction: row;
   }
 }
 

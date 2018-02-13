@@ -18,7 +18,7 @@
     display: block;
     font-size: 1.5em;
     color: #004;
-    padding: 20px;
+    padding: 9px;
     max-width: 235px;
     background: -webkit-gradient(linear, right bottom, left top, from(#8a8a90), color-stop(#fff), color-stop(84%), to(#8a8a90));
     background: -webkit-linear-gradient(bottom right, #8a8a90, #fff, 84%, #8a8a90);
@@ -64,9 +64,9 @@
 @media screen and (max-width: 900px) {
   .box-for-button {
     -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-    -ms-flex-direction: row-reverse;
-    flex-direction: row-reverse; } }
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; } }
 
 @media screen and (max-width: 600px) {
   .box-for-button {
